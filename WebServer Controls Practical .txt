@@ -1,0 +1,45 @@
+WebServer Controls Practical 
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="web_server_control.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <h1> Webform Controls</h1>
+    <h2>STUDENT REGISTRATION</h2>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+        first name:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <p>
+            last name:<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        </p>
+        Email id:<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        
+        <p>
+            Gender:<asp:RadioButton ID="RadioButton1" runat="server" Text="male" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:RadioButton ID="RadioButton3" runat="server" Text="female" />
+        </p>
+        <p>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="submit" />
+        </p>
+        <p>
+            <asp:Label ID="Label1" runat="server"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+        </p>
+    </form>
+</body>
+</html>
